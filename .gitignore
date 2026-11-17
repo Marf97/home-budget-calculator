@@ -1,0 +1,31 @@
+# Local worktrees and dependencies
+.worktrees/
+node_modules/
+
+# Build and test output
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Runtime databases, sidecars, and backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-wal
+*.sqlite3-shm
+*.bak
+*.backup
+*.dump
